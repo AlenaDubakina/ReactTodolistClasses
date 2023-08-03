@@ -1,0 +1,84 @@
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 15px 0;
+  border: 2px solid grey;
+  background: white;
+  color: rgb(80, 79, 79);
+  border-radius: 5px;
+}
+.todoText {
+  width: 100%;
+  text-align: left;
+}
+.todoTextTitle {
+  margin-top: 5px;
+}
+
+.todoInputEdit {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+.todoIsComplited {
+  text-decoration: line-through;
+}
+
+.todoIsArchive {
+  background: transparent;
+  color: grey;
+}
+
+.todoIconCheckPress {
+  margin: 5px;
+  font-size: 1.8em;
+  color: rgb(22, 178, 22);
+  transition: transform 0.3s;
+  margin-right: 25px;
+}
+
+.todoIconCheck,
+.todoIconTrash,
+.todoIconArchive,
+.todoIconEdit {
+  margin: 5px;
+  font-size: 1.3em;
+  color: grey;
+  transition: transform 0.3s;
+}
+
+.todoIconEdit {
+  font-size: 1.6em;
+}
+
+.todoIconCheck {
+  margin-right: 25px;
+}
+
+.todoIconArchive {
+  font-size: 1.5em;
+}
+
+.todoIconCheck:hover,
+.todoIconTrash:hover,
+.todoIconEdit:hover,
+.todoIconArchive:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.todoIconCheck:hover {
+  color: rgb(22, 178, 22);
+}
+
+.todoIconTrash:hover {
+  color: red;
+}
+
+.todoIconEdit:hover {
+  color: rgb(227, 207, 80);
+}

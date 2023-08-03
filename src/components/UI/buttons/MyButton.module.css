@@ -1,0 +1,14 @@
+.myBtn {
+  padding: 10px 15px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  cursor: pointer;
+  color: rgb(80, 79, 79);
+  font-size: 14px;
+  text-align: center;
+}
+
+.myBtn:hover {
+  background-color: lightgray;
+}
